@@ -1,0 +1,25 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "description": "\"PrintEase: A powerful, user-friendly tool for easy control of your printer. Tailored for ease of use and efficient handling of all your printing needs, PrintEase provides seamless integration between your computer and printer. Whether it's adjusting printer settings, or troubleshooting common problems, PrintEase has you covered.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/17562105692/docs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/17562105692/docs/issues"
+  },
+  "homepage": "https://github.com/17562105692/docs#readme",
+  "devDependencies": {
+    "vitepress": "^1.0.0-beta.7"
+  }
+}
