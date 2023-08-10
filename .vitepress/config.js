@@ -6,7 +6,6 @@ module.exports = {
             {
                 text: 'Introduction',
                 items: [
-                    { text: 'What is printase', link: '/src/guide/introduction', },
                     { text: 'Getting Started', link: '/src/guide/gettingStarted' },
                 ]
             },
@@ -32,11 +31,8 @@ module.exports = {
                 ]
             }
         ],
-        footer: {
-            copyright: 'Copyright © 2023'
-        },
         editLink: {
-            pattern: 'https://github.com/Liu-Jinshuai/printeaseDocs/:path',
+            pattern: 'https://github.com/Liu-Jinshuai/printeaseDocs/tree/master/:path',
             text: 'Edit this page on GitHub'
         }
     }

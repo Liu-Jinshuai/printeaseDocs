@@ -7,7 +7,6 @@
 npm install printease
 ```
 
-// 文档
 ## document
 
 - [docs](https://github.com/Liu-Jinshuai/printeaseDocs)
