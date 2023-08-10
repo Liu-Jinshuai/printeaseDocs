@@ -13,6 +13,9 @@ hero:
     - theme: alt
       text: API Examples
       link: /src/api/tspl
+    - theme: alt
+      text: Github
+      link: https://github.com/Liu-Jinshuai/printease
 
 features:
   - title: TSPL
