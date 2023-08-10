@@ -9,10 +9,10 @@ hero:
   actions:
     - theme: brand
       text: start immediately
-      link: /markdown-examples
+      link: /src/guide/gettingStarted
     - theme: alt
       text: API Examples
-      link: /api-examples
+      link: /src/api/tspl
 
 features:
   - title: TSPL
