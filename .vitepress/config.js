@@ -19,6 +19,12 @@ module.exports = {
                 ]
             },
             {
+                text: 'utils',
+                items: [
+                    { text: 'Data sharding', link: '/src/guide/data-sharding' },
+                ]
+            },
+            {
                 text: 'api',
                 items: [
                     { text: 'Tspl', link: '/src/api/tspl', },
@@ -28,6 +34,9 @@ module.exports = {
                             { text: 'uniapp', link: '/src/api/ImagePixelInformation/UniappImagePixelInformation' },
                         ]
                     },
+                    {
+                        text: 'dataProcessing', link: '/src/api/dataProcessing'
+                    }
                 ]
             }
         ],
