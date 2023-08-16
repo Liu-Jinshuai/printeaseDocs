@@ -2,7 +2,7 @@ module.exports = {
     base: '/printeaseDocs/',
     title: 'Printease',
     themeConfig: {
-        logo: 'public/logo.png',
+        logo: '/logo.png',
         sidebar: [
             {
                 text: 'Introduction',
