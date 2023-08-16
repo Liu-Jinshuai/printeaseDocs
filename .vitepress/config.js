@@ -2,9 +2,11 @@ module.exports = {
     base: '/printeaseDocs/',
     title: 'Printease',
     themeConfig: {
+        logo: 'public/logo.png',
         sidebar: [
             {
                 text: 'Introduction',
+                collapsed: false,
                 items: [
                     { text: 'About printease', link: '/src/guide/about-printease' },
                     { text: 'Getting Started', link: '/src/guide/gettingStarted' }
@@ -12,22 +14,32 @@ module.exports = {
             },
             {
                 text: 'tutorial',
+                collapsed: true,
                 items: [
-                    { text: 'Set encoding', link: '/src/guide/set-encoding' },
-                    { text: 'Print text', link: '/src/guide/print-text' },
-                    { text: 'Print Bar code', link: '/src/guide/print-barcode' },
-                    { text: 'Print QR code', link: '/src/guide/print-qr-code' },
-                    { text: 'Print image', link: '/src/guide/print-image' },
+                    {
+                        text: 'tspl',
+                        collapsed: true,
+                        items: [
+                            { text: 'Set encoding', link: '/src/guide/set-encoding' },
+                            { text: 'Print text', link: '/src/guide/print-text' },
+                            { text: 'Print Bar code', link: '/src/guide/print-barcode' },
+                            { text: 'Print QR code', link: '/src/guide/print-qr-code' },
+                            { text: 'Print image', link: '/src/guide/print-image' },
+                        ]
+                    }
+
                 ]
             },
             {
                 text: 'utils',
+                collapsed: true,
                 items: [
                     { text: 'Data sharding', link: '/src/guide/data-sharding' },
                 ]
             },
             {
                 text: 'api',
+                collapsed: true,
                 items: [
                     { text: 'Tspl', link: '/src/api/tspl', },
                     {
