@@ -12,7 +12,7 @@ It is relatively simple to use, for example, we can use the following statement 
 ### print text
 
 ```js
-import printsea from 'printsea'
+import printsea from 'printease'
 let tspl = new printsea.tspl.TsplLib()
 tspl.init()
 tspl.setSize(60, 40)

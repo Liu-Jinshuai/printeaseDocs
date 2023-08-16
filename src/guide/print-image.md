@@ -3,7 +3,7 @@
 ## js use
 
 ```js
-import printsea from 'printsea'
+import printsea from 'printease'
 let imageData = [0, 0, 0, 0, 0, 0, 7, 255, 3, 255, 17, 255, 24, 255, 28, 127, 30, 63, 31, 31, 31, 143, 31, 199, 31, 227, 31, 231, 31, 255, 31, 255]
 let tspl = new printsea.tspl.TsplLib()
 tspl.init()
@@ -20,7 +20,7 @@ console.log(tspl.getBuffer())
 If you don't want to organize the image data yourself, you can use ```imagePixelInformation``` for processing, like this:
 
 ```js
-import printsea from 'printsea'
+import printsea from 'printease'
 import img from './test.png'
 let ctx = new printsea.imagePixelInformation.JavaScriptImagePixelInformation(100);
 ctx.getImageData(img,200,300,(res)=>{
