@@ -1,5 +1,14 @@
 # print image
 
+---------
+
+ - [init](/src/api/tspl#init): init the command
+ - [setSize](/src/api/tspl#setsize): Set the width and length of the label paper
+ - [setGap](/src/api/tspl#setgap): Set the vertical distance between two label papers
+ - [setCls](/src/api/tspl#setcls): Clear the data of the image buffer
+ - [setBitmap](/src/api/tspl#setbitmap): Draw a bitmap (non-BMP format image file)
+ - [setPrint](/src/api/tspl#setprint): execute print
+
 ## js use
 
 ```js

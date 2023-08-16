@@ -2,6 +2,13 @@
 
 ## use
 
+ - [init](/src/api/tspl#init): init the command
+ - [setSize](/src/api/tspl#setsize): Set the width and length of the label paper
+ - [setGap](/src/api/tspl#setgap): Set the vertical distance between two label papers
+ - [setCls](/src/api/tspl#setcls): Clear the data of the image buffer
+ - [setBarCode](/src/api/tspl#setbarcode): Draw 1D barcode
+ - [setPrint](/src/api/tspl#setprint): execute print
+
 ```js
 import printease from 'printease'
 let tspl = new printease.tspl.TsplLib()

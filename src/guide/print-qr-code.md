@@ -1,6 +1,13 @@
 # print QR code
 
 ## use
+
+ - [init](/src/api/tspl#init): init the command
+ - [setSize](/src/api/tspl#setsize): Set the width and length of the label paper
+ - [setGap](/src/api/tspl#setgap): Set the vertical distance between two label papers
+ - [setCls](/src/api/tspl#setcls): Clear the data of the image buffer
+ - [setQRCode](/src/api/tspl#setqrcode): This command is used to print the QR code
+ - [setPrint](/src/api/tspl#setprint): execute print
     
 ```js
 import printease from 'printease'

@@ -15,6 +15,7 @@ module.exports = {
                 items: [
                     { text: 'Set encoding', link: '/src/guide/set-encoding' },
                     { text: 'Print text', link: '/src/guide/print-text' },
+                    { text: 'Print Bar code', link: '/src/guide/print-barcode' },
                     { text: 'Print QR code', link: '/src/guide/print-qr-code' },
                     { text: 'Print image', link: '/src/guide/print-image' },
                 ]
