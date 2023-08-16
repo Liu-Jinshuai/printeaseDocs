@@ -5,7 +5,7 @@
 The default is ```utf-8``` encoding, you need to set it to the encoding you need
 
 ```js
-import printsea from 'printease'
+import printease from 'printease'
 let tspl = new printease.tspl.TsplLib()
 tspl.init()
 tspl.setEncoding('GB18030')

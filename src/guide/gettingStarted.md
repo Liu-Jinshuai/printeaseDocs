@@ -12,8 +12,8 @@ It is relatively simple to use, for example, we can use the following statement 
 ### print text
 
 ```js
-import printsea from 'printease'
-let tspl = new printsea.tspl.TsplLib()
+import printease from 'printease'
+let tspl = new printease.tspl.TsplLib()
 tspl.init()
 tspl.setSize(60, 40)
 tspl.setGap(0, 0)

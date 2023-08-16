@@ -3,8 +3,8 @@
 ## use
     
 ```js
-import printsea from 'printease'
-let tspl = new printsea.tspl.TsplLib()
+import printease from 'printease'
+let tspl = new printease.tspl.TsplLib()
 tspl.init()
 tspl.setSize(60, 40)
 tspl.setGap(0, 0)
