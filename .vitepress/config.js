@@ -6,7 +6,8 @@ module.exports = {
             {
                 text: 'Introduction',
                 items: [
-                    { text: 'Getting Started', link: '/src/guide/gettingStarted' },
+                    { text: 'About printease', link: '/src/guide/about-printease' },
+                    { text: 'Getting Started', link: '/src/guide/gettingStarted' }
                 ]
             },
             {

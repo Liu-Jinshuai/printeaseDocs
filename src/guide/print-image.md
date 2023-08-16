@@ -55,5 +55,5 @@ ctx.uniGetImageData('myCanvas',img,200,300,()=>{
 ```
 
 ::: warning
-Due to some limitations of ```uniapp```, you need to create a canvas in advance. In addition, the width and height of the canvas should be set larger than the width and height of the graphics you want to print
+Due to some limitations of ```uniapp```, you need to create a ```canvas``` in advance. In addition, the width and height of the canvas should be set larger than the width and height of the graphics you want to print
 :::
