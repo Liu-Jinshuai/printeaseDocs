@@ -20,11 +20,21 @@ module.exports = {
                         text: 'tspl',
                         collapsed: true,
                         items: [
-                            { text: 'Set encoding', link: '/src/guide/set-encoding' },
-                            { text: 'Print text', link: '/src/guide/print-text' },
-                            { text: 'Print Bar code', link: '/src/guide/print-barcode' },
-                            { text: 'Print QR code', link: '/src/guide/print-qr-code' },
-                            { text: 'Print image', link: '/src/guide/print-image' },
+                            { text: 'Set encoding', link: '/src/guide/tspl/set-encoding' },
+                            { text: 'Print text', link: '/src/guide/tspl/print-text' },
+                            { text: 'Print Bar code', link: '/src/guide/tspl/print-barcode' },
+                            { text: 'Print QR code', link: '/src/guide/tspl/print-qr-code' },
+                            { text: 'Print image', link: '/src/guide/tspl/print-image' },
+                        ]
+                    },
+                    {
+                        text: 'zpl',
+                        collapsed: true,
+                        items: [
+                            { text: 'Print text', link: '/src/guide/zpl/print-text' },
+                            { text: 'Print Bar code', link: '/src/guide/zpl/print-barcode'},
+                            { text: 'Print QR code', link: '/src/guide/zpl/print-qr-code' },
+                            { text: 'Set encoding', link: '/src/guide/zpl/set-encoding' }
                         ]
                     }
 
@@ -41,7 +51,8 @@ module.exports = {
                 text: 'api',
                 collapsed: true,
                 items: [
-                    { text: 'Tspl', link: '/src/api/tspl', },
+                    { text: 'Tspl', link: '/src/api/tspl'},
+                    { text: 'Zpl', link: '/src/api/zpl'},
                     {
                         text: 'ImagePixelInformation', items: [
                             { text: 'javascript', link: '/src/api/ImagePixelInformation/JavaScriptImagePixelInformation' },
@@ -51,6 +62,7 @@ module.exports = {
                     {
                         text: 'dataProcessing', link: '/src/api/dataProcessing'
                     }
+                   
                 ]
             }
         ],
