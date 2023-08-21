@@ -10,7 +10,7 @@
 import printease from 'printease'
 let zpl = new printease.zpl.ZplLib()
 zpl.init()
-zpl.setText(10, 10, '世界你好')
+zpl.setText(10, 10, 'hello printease')
 zpl.setPrint()
 console.log(zpl.getBuffer())
 ```
