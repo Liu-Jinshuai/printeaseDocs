@@ -48,6 +48,13 @@ module.exports = {
                 ]
             },
             {
+                text: 'custom directive',
+                collapsed: true,
+                items: [
+                    { text: 'directive', link: '/src/guide/custom-directive' },
+                ]
+            },
+            {
                 text: 'utils',
                 collapsed: true,
                 items: [
@@ -69,6 +76,9 @@ module.exports = {
                     },
                     {
                         text: 'dataProcessing', link: '/src/api/dataProcessing'
+                    },
+                    {
+                        text: 'customDirective', link: '/src/api/customDirective'
                     }
                    
                 ]
