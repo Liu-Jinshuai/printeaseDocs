@@ -11,19 +11,16 @@ It is relatively simple to use, for example, we can use the following statement 
 
 ### print text
 
-```js
-import printease from 'printease'
-let tspl = new printease.tspl.TsplLib()
-tspl.init()
-tspl.setSize(60, 40)
-tspl.setGap(0, 0)
-tspl.setCls()
-tspl.setText(50,50,'3',0,1,1,'Hello, Printease!')
-tspl.setPrint(1)
-console.log(tspl.getBuffer())
-```
+- [tspl command](/src/guide/tspl/print-text)
+- [zpl command](/src/guide/zpl/print-text)
+- [esc command](/src/guide/esc/print-text)
 
 You can see that we have used ```tspl.getBuffer()``` to get a piece of buffer data, you need to connect to the printer, and then send the buffer content to the printer, and the printer will perform a printing process.
+
+
+::: info more
+**Due to the large number of instructions, it is being updated gradually. . .sorry for the inconvenience.**
+:::
 
 
 
