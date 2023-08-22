@@ -36,6 +36,13 @@ module.exports = {
                             { text: 'Print QR code', link: '/src/guide/zpl/print-qr-code' },
                             { text: 'Set encoding', link: '/src/guide/zpl/set-encoding' }
                         ]
+                    },
+                    {
+                        text: 'esc',
+                        collapsed: true,
+                        items: [
+                            { text: 'Print text', link: '/src/guide/esc/print-text' },
+                        ]
                     }
 
                 ]
@@ -53,6 +60,7 @@ module.exports = {
                 items: [
                     { text: 'Tspl', link: '/src/api/tspl'},
                     { text: 'Zpl', link: '/src/api/zpl'},
+                    { text: 'Esc', link: '/src/api/esc'},
                     {
                         text: 'ImagePixelInformation', items: [
                             { text: 'javascript', link: '/src/api/ImagePixelInformation/JavaScriptImagePixelInformation' },
