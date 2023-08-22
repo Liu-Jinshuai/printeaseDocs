@@ -27,3 +27,20 @@ console.log(cude.getBuffer())
 ```
 
 You can pass this ```buffer``` data to the printer.
+
+### bitmap
+
+If you have custom bitmap data, please pass in an array, otherwise your bitmap data will be encoded, resulting in incorrect
+
+For example, your bitmap data format ```BITMAP 10,20,10,15,30```
+
+```js
+import printease from 'printease'
+let cude = new printease.customDirective.CustomDirectiveLib()
+// cude.setEncoding('GB18030')
+cude.setCommand('BITMAP')
+cude.setCommand([10,20,10,15,30])
+cude.setNewLine()
+// ....... other commands
+console.log(cude.getBuffer())
+```
