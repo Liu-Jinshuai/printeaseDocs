@@ -21,3 +21,5 @@ tspl.setText(50,50,'3',0,1,1,'Hello, Printease!')
 tspl.setPrint(1)
 console.log(tspl.getBuffer())
 ```
+
+You can see that we have used ```tspl.getBuffer()``` to get a piece of buffer data, you need to connect to the printer, and then send the buffer content to the printer, and the printer will perform a printing process.
