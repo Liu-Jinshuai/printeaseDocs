@@ -4,11 +4,11 @@ Since printease is still being updated, it may not be able to meet all your need
 
 ## method
 
- - [setEncoding](/src/api/customdirective#setencoding): Set encoding type
- - [setCommand](/src/api/customdirective#setcommand): set custom command
- - [setNewLine](/src/api/customdirective#setnewline): new line
- - [getCommand](/src/api/customdirective#getcommand): get print command
- - [getBuffer](/src/api/customdirective#getbuffer): Get print command (Buffer)
+ - [setEncoding](/src/api/customDirective#setencoding): Set encoding type
+ - [setCommand](/src/api/customDirective#setcommand): set custom command
+ - [setNewLine](/src/api/customDirective#setnewline): new line
+ - [getCommand](/src/api/customDirective#getcommand): get print command
+ - [getBuffer](/src/api/customDirective#getbuffer): Get print command (Buffer)
 
 ### setCommand
 
