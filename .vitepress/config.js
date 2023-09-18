@@ -59,6 +59,7 @@ module.exports = {
                 collapsed: true,
                 items: [
                     { text: 'Data sharding', link: '/src/guide/data-sharding' },
+                    { text: 'Pdf analysis', link: '/src/guide/pdf-analysis' },
                 ]
             },
             {
