@@ -1,6 +1,6 @@
 # pdf analysis
 
-## javascript pdf analysis
+<!-- ## javascript pdf analysis
 
 ```javascript
 import printease from 'printease'
@@ -10,9 +10,9 @@ pdf.loadPdfFile(pdfFile)
         that.drawImageObj = pdf.getPdfText();
         that.imageArr = pdf.getPdfImage();
     })
-```
+``` -->
 
-## uniapp pdf analysis
+## uniapp pdf analysis <Badge type="danger" text="beta" />
 
 **uniapp only supports network images,** and will support more types in the future.
 
