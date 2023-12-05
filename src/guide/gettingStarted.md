@@ -5,6 +5,14 @@
 npm install printease
 ```
 
+## Preface
+
+Each printer supports a different set of commands. You should first search for the command set supported by the printer you are using.
+
+**If your printer does not support the ```tspl``` command set, it is recommended that you use a [custom command set](/src/guide/custom-directive)**
+
+ - **[custom command set](/src/guide/custom-directive)**
+
 ## use
 
 It is relatively simple to use, for example, we can use the following statement to print a piece of content
